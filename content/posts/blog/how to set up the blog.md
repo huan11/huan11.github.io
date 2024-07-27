@@ -32,7 +32,7 @@ Reuse the others framework
 
 
 
-step 1 clone
+step 1 clone 
 
 ```
 git clone https://github.com/xyming108/sulv-hugo-papermod.git
@@ -64,7 +64,7 @@ Step create github repo(must public)
 
 ![image-20240727090210786](./img/image-20240727090210786.png)
 
-Step use github repo to store the blog(not public folder under the hugo blog)
+Step set up GitHub upstream
 
 ```
 git remote add origin git@github.com:huan11/huan11.github.io.git
@@ -72,11 +72,41 @@ git remote add origin git@github.com:huan11/huan11.github.io.git
 
 
 
+Step Add your notes and push the changes
 
+```
+git add .
+git commmit -m "add my notes"
+git push
+```
+
+
+
+Eg:
+
+![image-20240727090927308](./img/image-20240727090927308.png)
+
+Check the changes have been pushed to GitHub
+
+![image-20240727091118078](./img/image-20240727091118078.png)
 
 Step config github action
 
+![image-20240727091959131](./img/image-20240727091959131.png)
 
+![image-20240727092046143](./img/image-20240727092046143.png)
+
+
+
+![image-20240727092316685](./img/image-20240727092316685.png)
+
+
+
+![image-20240727092529489](./img/image-20240727092529489.png)
+
+
+
+![image-20240727092736762](./img/image-20240727092736762.png)
 
 
 
