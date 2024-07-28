@@ -48,7 +48,7 @@ hugo server -D
 
 ## Deploy automatically( steps)
 
-Step create github repo(must public)
+Step create GitHub repo(must public)
 
 ![image-20240727090114870](./img/image-20240727090114870.png)
 
