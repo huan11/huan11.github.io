@@ -3,7 +3,7 @@ title: 'How to set up Static Blog?'
 date: 2024-07-27T08:45:23+08:00
 lastmod: 2024-07-27T08:45:23+08:00
 author: ['Asher']
-draft: false 
+draft: false
 ---
 
 # Dependencies
@@ -13,8 +13,6 @@ Setup static blog
 1. Git https://git-scm.com/downloads
 2. Hugo https://github.com/gohugoio/hugo
 3. [optional] markdown editor: Typora
-
-
 
 Automatic Deploy
 
@@ -30,15 +28,11 @@ Reuse the others framework
 >
 > preview : https://www.sulvblog.cn/
 
-
-
-step 1 clone 
+step 1 clone
 
 ```
 git clone https://github.com/xyming108/sulv-hugo-papermod.git
 ```
-
-
 
 step2 download theme
 
@@ -46,15 +40,11 @@ step2 download theme
 git submodule update --init
 ```
 
-
-
-Step3  start the 
+Step3 start the
 
 ```
 hugo server -D
 ```
-
-
 
 ## Deploy automatically( steps)
 
@@ -70,8 +60,6 @@ Step set up GitHub upstream
 git remote add origin git@github.com:huan11/huan11.github.io.git
 ```
 
-
-
 Step Add your notes and push the changes
 
 ```
@@ -79,8 +67,6 @@ git add .
 git commmit -m "add my notes"
 git push
 ```
-
-
 
 Eg:
 
@@ -90,23 +76,14 @@ Check the changes have been pushed to GitHub
 
 ![image-20240727091118078](./img/image-20240727091118078.png)
 
-Step config github action
+Step config GitHub action
 
 ![image-20240727091959131](./img/image-20240727091959131.png)
 
 ![image-20240727092046143](./img/image-20240727092046143.png)
 
-
-
 ![image-20240727092316685](./img/image-20240727092316685.png)
-
-
 
 ![image-20240727092529489](./img/image-20240727092529489.png)
 
-
-
 ![image-20240727092736762](./img/image-20240727092736762.png)
-
-
-
