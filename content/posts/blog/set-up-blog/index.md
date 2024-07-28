@@ -64,7 +64,7 @@ Step Add your notes and push the changes
 
 ```
 git add .
-git commmit -m "add my notes"
+git commit -m "add my notes"
 git push
 ```
 
