@@ -1,0 +1,123 @@
+env: production # to enable google analytics, opengraph, twitter-cards and schema.
+description: ""
+author: Asher
+
+# 左上角图标
+label:
+  text: "Asher's Blog"
+  icon: "img/Q.gif"
+  iconHeight: 35
+
+# defaultTheme: light or  dark
+defaultTheme: dark
+disableThemeToggle: false
+
+# theme mode
+profileMode:
+  enabled: true
+  title: (〃'▽'〃)
+  subtitle:
+  # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
+  imageUrl: "img/Q.gif"
+  imageTitle:
+  imageWidth: 150
+  imageHeight: 150
+  buttons:
+    - name: 🧱 建站
+      url: posts/blog
+    - name: 👨🏻‍💻 工具
+      url: posts/tools
+    # - name: 🏖 生活
+    #   url: posts/life
+    - name: 🏖 前端
+      url: posts/frontend
+    - name: 🏖 后端
+      url: posts/backend
+    - name: 👨🏻‍💻 AI
+      url: posts/ai
+    - name: 📕 阅读
+      url: posts/read
+
+
+# 搜索配置
+fuseOpts: 
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: [ "title", "permalink", "summary" ]
+
+
+
+
+# 文章显示配置
+## ToC
+ShowToc: true # 显示目录
+TocOpen: true # 自动展开目录
+## 
+ShowLastMod: true #显示文章更新时间
+ShowWordCounts: true
+VisitCount: true
+## comment
+comments: false
+## Code config
+ShowCodeCopyButtons: true
+enableInlineShortcodes: true
+
+
+DateFormat: "2006-01-02"
+ShowShareButtons: true
+ShowReadingTime: false
+# disableSpecialistPost: true
+displayFullLangName: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+
+hideFooter: false # 隐藏页脚
+
+
+extendCodeBackground: false # 代码块是否自动横向展开
+
+
+
+socialIcons:
+  - name: github
+    url: "https://github.com/huan11"
+  # - name: twitter
+  #   url: "img/twitter.png"
+  # - name: facebook
+  #   url: "https://www.facebook.com/profile.php?id=100027782410997"
+  # - name: instagram
+  #   url: "img/instagram.png"
+  # - name: QQ
+  #   url: "img/qq.png"
+  # - name: WeChat
+  #   url: "img/wechat.png"
+  # - name: bilibili
+  #   url: "https://space.bilibili.com/234461224"
+  # - name: email
+  #   url: "mailto:1931559710@qq.com"
+  # - name: RSS
+  #   url: "index.xml"
+
+
+
+analytics:
+  google:
+    SiteVerificationTag: ""
+
+assets:
+  favicon: "img/Q.gif"
+  favicon16x16: "img/Q.gif"
+  favicon32x32: "img/Q.gif"
+  apple_touch_icon: "img/Q.gif"
+  safari_pinned_tab: "img/Q.gif"
+  disableFingerprinting: true # 禁用指纹
+
+cover:
+  hidden: false # hide everywhere but not in structured data
+  hiddenInList: false # hide on list pages and home
+  hiddenInSingle: false # hide on single page
+

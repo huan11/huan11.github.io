@@ -2,8 +2,8 @@
 title: 'How to set up Static Blog?'
 date: 2024-07-27T08:45:23+08:00
 lastmod: 2024-07-27T08:45:23+08:00
-author: ['Asher']
 draft: false
+tags: [triangle, shape, product]
 ---
 
 # Dependencies
@@ -87,3 +87,14 @@ Step config GitHub action
 ![image-20240727092529489](./img/image-20240727092529489.png)
 
 ![image-20240727092736762](./img/image-20240727092736762.png)
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	// hi
+	fmt.Println("Hello, World!")
+}
+```

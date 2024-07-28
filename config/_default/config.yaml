@@ -1,0 +1,6 @@
+baseURL:  https://huan11.github.io/
+languageCode: en-us
+title: Asher's Blog
+theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
+enableEmoji: true
+
