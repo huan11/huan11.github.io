@@ -87,14 +87,3 @@ Step config GitHub action
 ![image-20240727092529489](./img/image-20240727092529489.png)
 
 ![image-20240727092736762](./img/image-20240727092736762.png)
-
-```
-package main
-
-import "fmt"
-
-func main() {
-	// hi
-	fmt.Println("Hello, World!")
-}
-```
