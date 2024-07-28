@@ -110,28 +110,3 @@ Step config github action
 
 
 
-TEST pic 
-![test](https://github.com/huan11/huan11.github.io/blob/main/content/posts/blog/img/image-20240727090114870.png)
-
-
-
-TEST pic2
-
-![image-20240727220544772](../../../static/img/image-20240727220544772.png)
-
-
-
-![image-20240727220544772](/img/image-20240727220544772.png)
-
-![image-20240727222006957](../../../static/img/image-20240727222006957.png)
-
-
-
-
-
-
-
-TEST July 28
-
-![image-20240728084355843](img/image-20240728084355843.png)
-
