@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:52668/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52668/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bad Smell</title>
+      <link>http://localhost:52668/posts/tdd/bad_smells/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52668/posts/tdd/bad_smells/</guid>
+      <description>&lt;h2 id=&#34;list-1-uncle-bob&#34;&gt;List 1 Uncle Bob&lt;/h2&gt;
+&lt;p&gt;Refactoring: Improving the Design of Existing Code&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/toc.xhtml&#34;&gt;https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/toc.xhtml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://learning.oreilly.com/library/view/refactoring-improving-the/9780134757681/ch03.xhtml#ch03&#34;&gt;Chapter 3: Bad Smells in Code&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;##&lt;/th&gt;
+          &lt;th&gt;Bad Smell&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;Mysterious Name&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Duplicated Code&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;Long Function&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;Long Parameter List&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5&lt;/td&gt;
+          &lt;td&gt;Global Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;6&lt;/td&gt;
+          &lt;td&gt;Mutable Data&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;7&lt;/td&gt;
+          &lt;td&gt;Divergent Change&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;Shotgun Surgery&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;9&lt;/td&gt;
+          &lt;td&gt;Feature Envy&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;Data Clumps&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;11&lt;/td&gt;
+          &lt;td&gt;Primitive Obsession&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;12&lt;/td&gt;
+          &lt;td&gt;Repeated Switches&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;13&lt;/td&gt;
+          &lt;td&gt;Loops&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;14&lt;/td&gt;
+          &lt;td&gt;Lazy Element&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;15&lt;/td&gt;
+          &lt;td&gt;Speculative Generality&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;16&lt;/td&gt;
+          &lt;td&gt;Temporary Field&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;17&lt;/td&gt;
+          &lt;td&gt;Message Chains&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;18&lt;/td&gt;
+          &lt;td&gt;Middle Man&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;19&lt;/td&gt;
+          &lt;td&gt;Insider Trading&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;20&lt;/td&gt;
+          &lt;td&gt;Large Class&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;21&lt;/td&gt;
+          &lt;td&gt;Alternative Classes with Different Interfaces&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22&lt;/td&gt;
+          &lt;td&gt;Data Class&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;23&lt;/td&gt;
+          &lt;td&gt;Refused Bequest&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;24&lt;/td&gt;
+          &lt;td&gt;Comments&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;list-2-郑烨&#34;&gt;List 2 郑烨&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;##&lt;/th&gt;
+          &lt;th&gt;代码坏味道&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;命名不规范&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;乱用英语&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;重复代码&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;长函数&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5&lt;/td&gt;
+          &lt;td&gt;大类&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;6&lt;/td&gt;
+          &lt;td&gt;长参数列表&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;7&lt;/td&gt;
+          &lt;td&gt;滥用控制语句&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;8&lt;/td&gt;
+          &lt;td&gt;缺乏封装&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;9&lt;/td&gt;
+          &lt;td&gt;可变的数据&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;10&lt;/td&gt;
+          &lt;td&gt;变量声明与赋值分离&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;11&lt;/td&gt;
+          &lt;td&gt;依赖混乱&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;12&lt;/td&gt;
+          &lt;td&gt;不一致的代码&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;13&lt;/td&gt;
+          &lt;td&gt;落后的代码风格&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;命名&#34;&gt;命名&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;img&#34; loading=&#34;lazy&#34; src=&#34;https://static001.geekbang.org/resource/image/4e/66/4e725dfea2eeb16ef0f654813ca42066.jpg?wh=2284*3156&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to set up Static Blog?</title>
+      <link>http://localhost:52668/posts/blog/set-up-blog/</link>
+      <pubDate>Sat, 27 Jul 2024 08:45:23 +0800</pubDate>
+      <guid>http://localhost:52668/posts/blog/set-up-blog/</guid>
+      <description>&lt;h1 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h1&gt;
+&lt;p&gt;Setup static blog&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Git &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;https://git-scm.com/downloads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hugo &lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;https://github.com/gohugoio/hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[optional] markdown editor: Typora&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Automatic Deploy&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;GitHub Action &lt;a href=&#34;https://docs.github.com/en/actions/quickstart&#34;&gt;https://docs.github.com/en/actions/quickstart&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;how-to-set-up-static-blog&#34;&gt;How to set up Static Blog?&lt;/h1&gt;
+&lt;h2 id=&#34;setup-static-blog3-steps&#34;&gt;Setup static blog(3 steps)&lt;/h2&gt;
+&lt;p&gt;Reuse the others framework&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xyming108/sulv-hugo-papermod&#34;&gt;https://github.com/xyming108/sulv-hugo-papermod&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;preview : &lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;https://www.sulvblog.cn/&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;step 1 clone&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/xyming108/sulv-hugo-papermod.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;step2 download theme&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git submodule update --init
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Step3 start the&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;deploy-automatically-steps&#34;&gt;Deploy automatically( steps)&lt;/h2&gt;
+&lt;p&gt;Step create GitHub repo(must public)&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image-20240727090114870&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:52668/posts/blog/set-up-blog/img/image-20240727090114870.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;image-20240727090210786&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:52668/posts/blog/set-up-blog/img/image-20240727090210786.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Step set up GitHub upstream&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote add origin git@github.com:huan11/huan11.github.io.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Step Add your notes and push the changes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>国内 AI 工具集</title>
+      <link>http://localhost:52668/posts/tools/ai_frequent_tools/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52668/posts/tools/ai_frequent_tools/</guid>
+      <description>&lt;h1 id=&#34;llm&#34;&gt;LLM&lt;/h1&gt;
+&lt;h2 id=&#34;智谱&#34;&gt;智谱&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;官网体验平台 &lt;a href=&#34;https://bigmodel.cn/&#34;&gt;https://bigmodel.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文档 &lt;a href=&#34;https://zhipu-ai.feishu.cn/wiki/YInmwPmyii67VRkzU3BchPNzncg&#34;&gt;https://zhipu-ai.feishu.cn/wiki/YInmwPmyii67VRkzU3BchPNzncg&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hugging Face 开源模型 &lt;a href=&#34;https://huggingface.co/collections/THUDM/&#34;&gt;https://huggingface.co/collections/THUDM/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最新动态&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;官网 &lt;a href=&#34;https://www.zhipuai.cn/news/&#34;&gt;https://www.zhipuai.cn/news/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>全面拥抱 AI</title>
+      <link>http://localhost:52668/posts/ai/%E5%85%A8%E9%9D%A2%E6%8B%A5%E6%8A%B1ai/</link>
+      <pubDate>Sat, 27 Jul 2024 06:27:23 +0800</pubDate>
+      <guid>http://localhost:52668/posts/ai/%E5%85%A8%E9%9D%A2%E6%8B%A5%E6%8A%B1ai/</guid>
+      <description>&lt;h1 id=&#34;全面拥抱-ai&#34;&gt;全面拥抱 AI&lt;/h1&gt;
+&lt;h2 id=&#34;他山之石可以攻玉巨人肩膀&#34;&gt;他山之石，可以攻玉（巨人肩膀）&lt;/h2&gt;
+&lt;p&gt;阿里： 通义灵码&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://tongyi.aliyun.com/lingma/download&#34;&gt;https://tongyi.aliyun.com/lingma/download&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

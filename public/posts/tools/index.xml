@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tools on My New Hugo Site</title>
+    <link>http://localhost:52668/posts/tools/</link>
+    <description>Recent content in Tools on My New Hugo Site</description>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52668/posts/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>国内 AI 工具集</title>
+      <link>http://localhost:52668/posts/tools/ai_frequent_tools/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52668/posts/tools/ai_frequent_tools/</guid>
+      <description>&lt;h1 id=&#34;llm&#34;&gt;LLM&lt;/h1&gt;
+&lt;h2 id=&#34;智谱&#34;&gt;智谱&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;官网体验平台 &lt;a href=&#34;https://bigmodel.cn/&#34;&gt;https://bigmodel.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文档 &lt;a href=&#34;https://zhipu-ai.feishu.cn/wiki/YInmwPmyii67VRkzU3BchPNzncg&#34;&gt;https://zhipu-ai.feishu.cn/wiki/YInmwPmyii67VRkzU3BchPNzncg&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hugging Face 开源模型 &lt;a href=&#34;https://huggingface.co/collections/THUDM/&#34;&gt;https://huggingface.co/collections/THUDM/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最新动态&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;官网 &lt;a href=&#34;https://www.zhipuai.cn/news/&#34;&gt;https://www.zhipuai.cn/news/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
