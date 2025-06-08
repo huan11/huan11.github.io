@@ -41,7 +41,10 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 11            
+      weight: 11     
+    - name: Search
+      url: search/
+      weight: 12       
 
 params:
   # home-info mode
@@ -63,6 +66,19 @@ params:
   ShowWordCount: true
   ShowReadingTime: true
 
+  # Search Config
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+  # Code copy 
+  ShowCodeCopyButtons: true
+
 taxonomies:
   category: categories
   tag: tags 
@@ -71,3 +87,9 @@ pagination:
   disableAliases: false
   pagerSize: 5
   path: page
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
