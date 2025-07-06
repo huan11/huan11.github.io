@@ -5,7 +5,7 @@ title: Asher's Blog
 # Config Theme
 module:
   imports:
-  - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/adityatelange/hugo-PaperMod
 
 # Menu and Categories
 menu:
@@ -13,26 +13,38 @@ menu:
     # Categories and Tags
     ## Think and software engineering
     - identifier: books
-      name: Read & Thinking
-      url: /posts/think/
-      weight: 1   
+      name: Read
+      url: /posts/read/
+      weight: 1
     - identifier: engineering
-      name: Software Engineering
+      name: Engineering
       url: /posts/engineering/
-      weight: 2         
+      weight: 2
     - identifier: tdd
-      name: TDD in Action
+      name: TDD
       url: /posts/tdd/
-      weight: 3    
+      weight: 3
+    - identifier: algorithm
+      name: Algorithm
+      url: /posts/algorithm/
+      weight: 4
+    - identifier: portfolio
+      name: Portfolio
+      url: /posts/portfolio/
+      weight: 5
+    - identifier: volunteer
+      name: Volunteer
+      url: /posts/volunteer/
+      weight: 6
     # Tools
-    - identifier: tools
-      name: Tools
-      url: /posts/tools/
-      weight: 4     
-    - identifier: ai
-      name: AI
-      url: /posts/ai/
-      weight: 5         
+    # - identifier: tools
+    #   name: Tools
+    #   url: /posts/tools/
+    #   weight: 4
+    # - identifier: ai
+    #   name: AI
+    #   url: /posts/ai/
+    #   weight: 6
     # Categories and Tags
     - identifier: categories
       name: Categories
@@ -41,19 +53,19 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 11     
+      weight: 11
     - name: Search
       url: search/
-      weight: 12       
+      weight: 12
 
 params:
   # home-info mode
   homeInfoParams:
-    Title: "Think. Code. Grow."
+    Title: 'Think. Code. Grow.'
     Content: 日拱一卒
   socialIcons:
     - name: github
-      url: "https://github.com/huan11"
+      url: 'https://github.com/huan11'
 
   # Article ToC config
   UseHugoToc: true
@@ -75,13 +87,13 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
-  # Code copy 
+    keys: ['title', 'permalink', 'summary', 'content']
+  # Code copy
   ShowCodeCopyButtons: true
 
 taxonomies:
   category: categories
-  tag: tags 
+  tag: tags
 
 pagination:
   disableAliases: false

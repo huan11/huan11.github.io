@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Algolia Search</title>
+    </head>
+    <body>
+        <div id="searchbox"></div>
+        <div id="stats"></div>
+        <div id="hits"></div>
+
+        <!-- Algolia InstantSearch.js Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/algoliasearch@5.30.0/dist/lite/builds/browser.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.79.0/dist/instantsearch.production.min.js"></script>
+
+        <script>
+            const { liteClient: algoliasearch } = window['algoliasearch/lite'];
+
+            const search = instantsearch({
+                indexName: 'huan11io',
+                searchClient: algoliasearch('6S354XMVPF', '129d05753335bbf193d4febaae425ee7')
+            });
+
+            search.addWidgets([
+                instantsearch.widgets.searchBox({
+                    container: '#searchbox'
+                }),
+
+                instantsearch.widgets.stats({
+                    container: '#stats'
+                }),
+                instantsearch.widgets.hits({
+                    container: '#hits',
+                    templates: {
+                        item: (hit) => `
+                        <div class="hit-item">
+                            <h3>
+                            <a href="${hit.url}">${hit.content}</a>
+                            </h3>
+                        </div>
+                        `,
+                        empty: '没有找到相关内容'
+                    }
+                })
+            ]);
+
+            search.start();
+        </script>
+    </body>
+</html>
